@@ -1,0 +1,54 @@
+body{
+	background-color: #DB4935;
+	font-family: "Julius Sans One",Helvetica;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: #008FD5;
+
+}
+header h1{
+	font-family: "Electrolize", Helvetica;
+	margin: 0;
+	padding: 2em;
+	text-align: center;
+}
+section{
+	padding-top: 15%;
+	text-align: center;
+}
+select{
+	border: none;
+	font-size: 1em;	
+	height: 40px;
+	margin-left: 1em;	
+	width: 114px;
+}
+#calc{
+	border-right: 1px solid white;
+	display: inline-block;	
+}
+#calc h3{
+	padding-right: 10px;
+}
+
+#entvalor{
+	display: inline-block;
+}
+#entvalor h3{
+
+	padding-left: 10px;
+	margin: 0;
+}
+#entvalor div{
+	display: inline-block;
+}
+#entvalor h3, select{
+	margin-right: 1em;
+}
+#uno{
+	margin-right: 1em;
+}
