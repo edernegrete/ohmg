@@ -1,54 +1,23 @@
-body{
-	background-color: #DB4935;
-	font-family: "Julius Sans One",Helvetica;
-	font-size: 16px;
-	margin: 0;
-	padding: 0;
-}
-
-header{
-	background-color: #008FD5;
-
-}
-header h1{
-	font-family: "Electrolize", Helvetica;
-	margin: 0;
-	padding: 2em;
-	text-align: center;
-}
-section{
-	padding-top: 15%;
-	text-align: center;
-}
-select{
-	border: none;
-	font-size: 1em;	
-	height: 40px;
-	margin-left: 1em;	
-	width: 114px;
-}
-#calc{
-	border-right: 1px solid white;
-	display: inline-block;	
-}
-#calc h3{
-	padding-right: 10px;
-}
-
-#entvalor{
-	display: inline-block;
-}
-#entvalor h3{
-
-	padding-left: 10px;
-	margin: 0;
-}
-#entvalor div{
-	display: inline-block;
-}
-#entvalor h3, select{
-	margin-right: 1em;
-}
-#uno{
-	margin-right: 1em;
-}
+@font-face{font-family:'icomoon';src:url("fonts/icomoon.eot");src:url("fonts/icomoon.eot?#iefix") format('embedded-opentype'),url("fonts/icomoon.woff") format('woff'),url("fonts/icomoon.ttf") format('truetype'),url("fonts/icomoon.svg#icomoon") format('svg');font-weight:normal;font-style:normal}
+a{color:#000;text-decoration:none}
+body{background-color:#db4935;font-family:"Julius Sans One",Helvetica;font-size:16px;margin:0;padding:0}
+header{background-color:#008fd5}
+header h1{font-family:"Electrolize",Helvetica;margin:0;paddin:2em;text-align:center}
+section{padding-top:15%;text-align:center}
+select{border:0;box-shadow:0 3px 0 #ccc,0 -1px #fff inset;font-size:1em;height:40px;width:114px}
+footer{background:#ebb035;bottom:0;position:fixed;width:100%;}
+footer ul{text-align:center;}
+footer ul li{display:inline-block;margin-right:1em;text-align:center}
+.calc{border-bottom:1px solid #fff;display:inline-block;padding-bottom:1em}
+.calc h3{padding-right:10px}
+.entvalor{display:inline-block}
+.entvalor h3{padding-left:10px;margin:0}
+.entvalor div{display:inline-block}
+.entvalor h3,select{margin-right:1em}
+.uno{margin-right:1em}
+.git:before{content:"\e601";font-family:'icomoon';font-size:2em}
+.twit:before{content:"\e600";font-family:'icomoon';font-size:2em}
+.mail:before{content:"\e602";font-family:'icomoon';font-size:2em}
+.git:hover{font-size:2.1em;transition:all 1s ease}
+.twit:hover{font-size:2.1em;transition:all 1s ease}
+.mail:hover{font-size:2.1em;transition:all 1s ease}

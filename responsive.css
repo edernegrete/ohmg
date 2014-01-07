@@ -1,0 +1,10 @@
+@media screen and (min-widht: 768px){
+	body{
+		background: #151515;
+	}
+	#calc{
+	border-right: 1px solid white;
+	display: inline-block;	
+	padding-bottom: 1em;
+	}
+}
