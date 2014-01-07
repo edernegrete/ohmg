@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
 	<link rel="stylesheet" type="text/css" href="estilos.css">
 	<link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Ultra' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
 	<script src='jquery.js'></script>
 	<title>
 		Ley de Motherfuckin OHM
@@ -15,12 +15,24 @@
 	<header>
 		<h1>LEY DE OHM(G)</h1>
 	</header>
+	<button class='menu' id='menu'>
+		<span>Menu</span>
+	</button>
+	<nav id="nav">
+		<ul>
+		<a href="https://github.com/ederyair"><li class="git"></li></a>
+		<a href="https://twitter.com/ederyairr"><li class="twit"></li></a>
+		<a href=""><li class="mail"></li></a>
+	</ul>
+	</nav>
 	<section>
 		<article class="calc">
 			<h3> Selecciona lo que quieres calcular </h3>
 			<select>
 				  <option value="volt">Voltaje</option>
-				  <option value="resis">Resistencia</option>
+		
+				  	<option value="resis">Resistencia</option>
+				
 		  		  <option value="int">Intensidad</option>
 			</select>
 		</article>
@@ -47,8 +59,15 @@
 </footer>
 <script>
 var valor;
+$('#menu').on('click', aparecer);
 $('select').change(function(){
-	valor = $(this).val();
+	valor = $(this).val();	
+})
+function aparecer () {
+	var cambio={
+		display: 'block'
+	};
+	$('#nav').css(cambio);
 }
 </script>
 </body>
